@@ -1,19 +1,48 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="container container-header">
+    <div class="container-nav">
+      <a href="../index.html">yachtjet</a>
+      <nav class="header-nav">
+        <ul class="header-list-nav">
+          <li class="header-list-item-nav">
+            <a class="nav-link-menu" href="">About</a>
+          </li>
+          <li class="header-list-item-nav">
+            <a class="nav-link-menu" href="">Yachts</a>
+          </li>
+          <li class="header-list-item-nav">
+            <a class="nav-link-menu" href="">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header-list-soc">
+        <li class="header-list-item-soc">
+          <a href="https://www.instagram.com/goitclub/" target="_blank">
+            <svg class="social-icon" width="24" height="24">
+              <use href="../img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="header-list-item-soc">
+          <a href="https://www.youtube.com/c/GoIT" target="_blank">
+            <svg class="social-icon" width="24" height="24">
+              <use href="../img/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-list-item-soc">
+          <a href="https://www.facebook.com/goITclub/" target="_blank">
+            <svg class="social-icon" width="24" height="24">
+              <use href="../img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
         </li>
       </ul>
-    </nav>
+      <button class="header-burger-btn" type="button">
+        <svg class="header-icon-burger" width="28" height="28">
+          <use href="../img/icons.svg#icon-Burger"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>

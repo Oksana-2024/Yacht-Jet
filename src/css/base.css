@@ -1,32 +1,31 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --first-dark: #0e1823;
+  --first-light: #1b414b;
+  --secondary: #fbfbfb;
+  --third: #040306;
+  --text-form: rgba(251, 251, 251, 0.3);
+  --footer-text-opacity: rgba(251, 251, 251, 0.4);
+  --footer-fill-soc-icon: rgba(251, 251, 251, 0.8);
+  --fill-burger: #055545;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--first-dark);
+  color: var(--secondary);
   margin: 0;
 }
 
-main {
-  flex-grow: 1;
+.main-btn {
+  border-radius: 15px;
+  background: var(--first-light);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--secondary);
 }
-main:has(.back-link) {
-  text-align: center;
+
+html {
+  scroll-behavior: smooth;
 }
