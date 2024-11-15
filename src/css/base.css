@@ -7,6 +7,8 @@
   --footer-text-opacity: rgba(251, 251, 251, 0.4);
   --footer-fill-soc-icon: rgba(251, 251, 251, 0.8);
   --fill-burger: #055545;
+  --hover-header-btn: rgba(27, 65, 75, 0.5);
+  --hover-header-icon: #062730;
 }
 
 body {
